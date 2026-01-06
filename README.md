@@ -1,7 +1,6 @@
 # YouTube · Twitter 데이터 크롤링 스크립트
 
-YouTube Data API v3와 Tweepy를 사용하여 동영상·채널 메타데이터와 트윗을 수집하는 스크립트 모음입니다. API 키/토큰은 코드에 하드코딩하지 않고 `.env` 환경변수로 관리합니다.
-
+YouTube Data API v3와 Tweepy를 사용하여 동영상·채널 메타데이터와 트윗을 수집하는 스크립트 모음입니다.
 ## 요구 사항
 
 - Python 3.9 이상 권장
@@ -27,8 +26,6 @@ TWITTER_API_SECRET=your_twitter_api_secret_here
 TWITTER_ACCESS_TOKEN=your_twitter_access_token_here
 TWITTER_ACCESS_TOKEN_SECRET=your_twitter_access_token_secret_here
 ```
-
-`.env`는 `.gitignore`에 포함되어 Git에 커밋되지 않습니다.
 
 ## 프로젝트 구성
 
